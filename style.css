@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+}
+
+body {
+
+    background-image: url("assets/fundo1.jpg");
+
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.price {
+    font-weight: bold;
+    color: #79cb15;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 0;
+}
+
+li {
+    border: 2px solid #8133ff;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    border: none;
+}
+
+button {
+    width: 130px;
+    height: 70px;
+    background: #800000;
+    border: none;
+    color: whitesmoke;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+p {
+    color: bisque;
+    font-weight: bold;
+}
